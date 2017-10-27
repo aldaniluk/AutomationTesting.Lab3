@@ -13,7 +13,10 @@ namespace Logic
         public static double Divide(double lhs, double rhs)
         {
             if (rhs == 0)
+            {
                 throw new InvalidOperationException("Dividing by zero is not possible!");
+            }
+
             return lhs / rhs;
         }
 

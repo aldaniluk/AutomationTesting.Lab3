@@ -148,7 +148,7 @@ namespace Logic.UnitTest
         }
 
         [Test]
-        public void Divide_FirstAndSecondNumberAreZero_ThrowsInvalidOperationException()
+        public void Divide_FirstAndSecondNumbersAreZeros_ThrowsInvalidOperationException()
         {
             Assert.Throws<InvalidOperationException>(() => Calculator.Divide(0, 0));
         }
